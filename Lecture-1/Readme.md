@@ -2,4 +2,5 @@
 - Has many tags like <a> , <p> and <h>
 - Extensions : Live Server, Prettier
 - <!DOCTYPE html> -->  HTML5
+- <head> --> Metadata
 
