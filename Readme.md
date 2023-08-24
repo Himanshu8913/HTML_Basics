@@ -17,8 +17,20 @@ Types of Tags
 
 -----------------------------------------
 
-1. Semantic ==> <h1>...<h6>, <p>, <a>, <ul>..<ol>, <table>, <tr>, <td>, <img>, <form>, <input>
-2. Structural ==> <html>, <head>, <body>, <header>, <footer>, <main>, <aside>, <article>, <section>, <nav>
-3. Formatting ==> <b>, <i>, <strong>, <code>, <span>, <sub>, <sup>, <u>, <pre>
+1. Semantic ==> h1...h6, p, a, ul..ol, table, tr, td, img, form, input.
+2. Structural ==> html, head, body, header, footer, main, aside, article, section, nav.
+3. Formatting ==> b, i, strong, code, span, sub, sup, u, pre.
 
+-----------------------------------------
+
+- Emmet --> By Default installed in Vs code. It helps to generate full code with the help of shortcuts.
+
+```
+Ex ->
+ p>p>p ==> <p>
+                <p>
+                    <p></p>
+                </p>
+            </p>
+```
 
