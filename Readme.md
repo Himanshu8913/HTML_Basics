@@ -34,3 +34,14 @@ Ex ->
             </p>
 ```
 
+- Div -> generic container, grouping , division, wrapping tags.
+
+```
+- Block Element -> div, always next line, lift to right whole space.
+- Inline Element -> same line, space according to content.
+
+* We can convert block elements to inline elements and vice versa using -
+
+display: inline;
+display: block;
+```
