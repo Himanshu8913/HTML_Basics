@@ -45,3 +45,5 @@ Ex ->
 display: inline;
 display: block;
 ```
+
+- Table Tags  ==> thead, tbody, tr, td, th, tfoot
