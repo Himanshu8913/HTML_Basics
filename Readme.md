@@ -46,4 +46,8 @@ display: inline;
 display: block;
 ```
 
-- Table Tags  ==> thead, tbody, tr, td, th, tfoot
+- Table Tags  --> thead, tbody, tr, td, th, tfoot.
+
+- Form --> To collect user input data.
+- Label --> the value of 'for' in label and 'id' of input tag must be same for mapping the data.
+
