@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Complex Form</legend>
+
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="username">Name: </label>
+                <input type="text" name="username" id="username">
+                
+                <label for="emailid">Email: </label>
+                <input type="email" name="emailid" id="emailid">
+                
+                <label for="phone">Phone: </label>
+                <input type="tel" name="phone" id="phone">
+
+                <label for="dob">Date of Birth: </label>
+                <input type="date" name="dob" id="dob">
+
+                <label for="gender">Gender: </label>
+                <input type="radio" name="radio1" id="radio1">
+                <lable for="radio1">Male</lable>
+                
+                <input type="radio" name="radio1" id="radio1">
+                <lable for="radio1">female</lable>
+                
+                <label for="country">Country: </label>
+                <select name="country" id="country"> 
+                    <option value="india">India</option>
+                    <option value="us">U.S</option>
+                    <option value="uk">U.K</option>
+                </select>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Address Street: <input type="text">City: <input type="text">State: <input type="text">Zip Code: <input type="text"></legend>
+            </fieldset>
+
+            <fieldset>
+                <legend>Other Information</legend>
+                <lable for="comment">Additional Comments: </lable><br />
+                <textarea name="comment" id="comment" cols="30" rows="10" placeholder="enter comment..."></textarea>
+                <br />
+                <label for="check">I agree to the terms of service</label>
+                <input type="checkbox" name="check" id="check">
+            </fieldset>
+            <input type="button" value="Submit">
+        </fieldset>
+    </form>
+</body>
+</html>
